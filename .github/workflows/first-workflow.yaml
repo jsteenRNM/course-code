@@ -22,3 +22,10 @@ jobs:
         run: |
           echo "NPM version: "
           npm -v
+  dependant-job:
+    runs-on: windows-latest
+    needs: run-shell-commands
+    steps:
+      - name: echo a string
+        run: Write-Output "Windows String output"
+      - name: doesnotexist
