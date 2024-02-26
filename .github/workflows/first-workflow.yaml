@@ -28,5 +28,5 @@ jobs:
     steps:
       - name: echo a string
         run: Write-Output "Windows String output"
-      - name: Error Step
-        run: WriteLn "Hello from windows os"
+      - name: Echo Step
+        run: echo "Hello from windows os"
