@@ -29,4 +29,4 @@ jobs:
       - name: echo a string
         run: Write-Output "Windows String output"
       - name: Error Step
-        run: WriteLn "Hello from windows"
+        run: WriteLn "Hello from windows os"
