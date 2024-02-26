@@ -29,4 +29,4 @@ jobs:
       - name: echo a string
         run: Write-Output "Windows String output"
       - name: Echo Step
-        run: echo "Hello from windows os"
+        run: echog "Hello from windows os"
