@@ -28,4 +28,5 @@ jobs:
     steps:
       - name: echo a string
         run: Write-Output "Windows String output"
-      - name: doesnotexist
+      - name: Error Step
+        run: doesnotexist
