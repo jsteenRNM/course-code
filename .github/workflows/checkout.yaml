@@ -15,3 +15,5 @@ jobs:
           git checkout main
       - name: List Files After
         run: ls -a
+      - name: Echo a word
+        run: echo "Taco Tuesday"
